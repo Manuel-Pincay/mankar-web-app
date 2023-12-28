@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "mankar-web-app",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}

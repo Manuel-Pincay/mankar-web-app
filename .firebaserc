@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "appmovil-mankar": {
+      "hosting": {
+        "mankar-web-app": [
+          "appmovil-mankar"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "appmovil-mankar"
+  }
+}

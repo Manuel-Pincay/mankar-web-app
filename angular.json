@@ -93,8 +93,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "mankar-web-app:build:production",
+              "serveTarget": "mankar-web-app:serve:production"
+            },
+            "development": {
+              "buildTarget": "mankar-web-app:build:development",
+              "serveTarget": "mankar-web-app:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
